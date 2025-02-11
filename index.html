@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Study MBBS Abroad</title>
+  
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+  <style>
+   
+    .navbar {
+      background-color: #007bff !important;
+      padding: 1rem 0;
+    }
+    .navbar-brand, .nav-link {
+      color: white !important;
+    }
+    .navbar-brand {
+      font-weight: bold;
+      font-size: 1.5rem;
+    }
+    .nav-link {
+      margin: 0 10px;
+      font-weight: 500;
+    }
+    .nav-link:hover {
+      color: #f8f9fa !important;
+    }
+    .navbar-toggler {
+      border-color: white !important;
+    }
+    .navbar-toggler-icon {
+      background-image: url("data:image/svg+xml,%3csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3e%3cpath stroke='rgba(255, 255, 255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+    }
+
+  
+    .hero-section {
+      background: url(https://tse1.mm.bing.net/th?id=OIP.PKd75zMWP_MPRyyuh7zM0wHaDv&pid=Api&P=0&h=220) no-repeat center center/cover;
+      padding: 150px 0;
+      color: rgb(15, 14, 14);
+      text-align: center;
+      background-color: #3dcdd5;
+    }
+    .hero-section h1 {
+      font-size: 3.5rem;
+      font-weight: bold;
+    }
+    .hero-section .lead {
+      font-size: 1.5rem;
+      margin-bottom: 2rem;
+    }
+    .hero-section .btn-primary {
+      font-size: 1.2rem;
+      padding: 10px 30px;
+    }
+
+    
+    .why-section {
+      padding: 60px 0;
+    }
+    .why-section h2 {
+      font-size: 2.5rem;
+      font-weight: bold;
+      margin-bottom: 2rem;
+    }
+    .why-section h3 {
+      color: #070707;
+      font-size: 1.8rem;
+      margin-bottom: 1rem;
+    }
+    .why-section p {
+      font-size: 1.1rem;
+    }
+
+    .countries-section {
+      background-color: #f8f9fa;
+      padding: 60px 0;
+    }
+    .countries-section h2 {
+      font-size: 2.5rem;
+      font-weight: bold;
+      margin-bottom: 2rem;
+    }
+    .card {
+      transition: transform 0.3s ease;
+      border: 1px solid #ddd;
+      border-radius: 10px;
+      overflow: hidden;
+    }
+    .card:hover {
+      transform: translateY(-10px);
+      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    }
+    .card-body {
+      padding: 20px;
+    }
+    .card-body:hover {
+      border: 3px solid red;
+    }
+    .card-title {
+      font-size: 1.5rem;
+      font-weight: bold;
+      margin-bottom: 1rem;
+    }
+    .card-text {
+      font-size: 1rem;
+    }
+
+
+    .admission-section {
+      padding: 60px 0;
+    }
+    .admission-section h2 {
+      font-size: 2.5rem;
+      font-weight: bold;
+      margin-bottom: 2rem;
+    }
+    .accordion-button {
+      font-weight: bold;
+      font-size: 1.2rem;
+    }
+    .accordion-button i {
+      color: #007bff;
+    }
+    .accordion-body {
+      font-size: 1rem;
+    }
+
+    .cta-section {
+      background-color: #007bff;
+      padding: 60px 0;
+      color: white;
+    }
+    .cta-section h2 {
+      font-size: 2.5rem;
+      font-weight: bold;
+      margin-bottom: 2rem;
+    }
+    .cta-section .btn-light {
+      background-color: white;
+      color: #007bff;
+      font-weight: bold;
+      padding: 10px 30px;
+    }
+  </style>
+</head>
+<body>
+  
+  <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="#">Study MBBS Abroad</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#hero">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#why">Why MBBS Abroad?</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#countries">Top Countries</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#admission">Admission Process</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#cta">Apply Now</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+
+  <section id="hero" class="hero-section">
+    <div class="container">
+      <h1 class="display-4">Study MBBS Abroad</h1>
+      <p class="lead">Pursue your dream of becoming a doctor with affordable and quality education.</p>
+      <a href="#cta" class="btn btn-primary btn-lg">Apply Now</a>
+    </div>
+  </section>
+
+  <section id="why" class="why-section">
+    <div class="container">
+      <h2 class="text-center mb-4">Why Study MBBS Abroad?</h2>
+      <div class="row">
+        <div class="col-md-4 text-center">
+          <h3><i class="fas fa-money-bill-wave me-2"></i>Affordable Fees</h3>
+          <p>Low tuition fees compared to private medical colleges.</p>
+        </div>
+        <div class="col-md-4 text-center">
+          <h3><i class="fas fa-globe me-2"></i>Global Exposure</h3>
+          <p>Experience diverse cultures and global medical practices.</p>
+        </div>
+        <div class="col-md-4 text-center">
+          <h3><i class="fas fa-graduation-cap me-2"></i>Quality Education</h3>
+          <p>World-class infrastructure and experienced faculty.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  
+  <section id="countries" class="countries-section">
+    <div class="container">
+      <h2 class="text-center mb-4">Top Countries to Study MBBS</h2>
+      <div class="row">
+        <div class="col-md-4 mb-4">
+          <div class="card" style="width: 300px;height: 140px;">
+            <div class="card-body">
+              <h5 class="card-title">Russia</h5>
+              <p class="card-text">Affordable fees and globally recognized degrees.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-4">
+          <div class="card" style="width: 300px;height: 140px;">
+            <div class="card-body">
+              <h5 class="card-title">Uzbekistan</h5>
+              <p class="card-text">High-quality education at low costs.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-4">
+          <div class="card" style="width: 320px;height: 140px;">
+            <div class="card-body">
+              <h5 class="card-title">Kazakhstan</h5>
+              <p class="card-text">Modern facilities and affordable living.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="admission" class="admission-section">
+    <div class="container">
+      <h2 class="text-center mb-4">Admission Process & Eligibility</h2>
+      <div class="accordion" id="admissionAccordion">
+
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingOne">
+            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+              <i class="fas fa-clipboard-list me-2"></i> Steps to Apply
+            </button>
+          </h2>
+          <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#admissionAccordion">
+            <div class="accordion-body">
+              <ol>
+                <li>Submit your application.</li>
+                <li>Receive an admission letter.</li>
+                <li>Apply for a student visa.</li>
+                <li>Travel and start your studies.</li>
+              </ol>
+            </div>
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingTwo">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+              <i class="fas fa-check-circle me-2"></i> Eligibility Criteria
+            </button>
+          </h2>
+          <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#admissionAccordion">
+            <div class="accordion-body">
+              <ul>
+                <li>Minimum 50% in 12th grade (Science stream).</li>
+                <li>NEET qualification (for Indian students).</li>
+                <li>Age between 17 and 25 years.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  
+  <section id="cta" class="cta-section">
+    <div class="container">
+      <h2 class="text-center mb-4">Apply Now</h2>
+      <form id="leadForm" class="row g-3">
+        <div class="col-md-6">
+          <label for="name" class="form-label">Name</label>
+          <input type="text" class="form-control" id="name" required>
+        </div>
+        <div class="col-md-6">
+          <label for="email" class="form-label">Email</label>
+          <input type="email" class="form-control" id="email" required>
+        </div>
+        <div class="col-md-6">
+          <label for="phone" class="form-label">Phone</label>
+          <input type="tel" class="form-control" id="phone" required>
+        </div>
+        <div class="col-md-6">
+          <label for="country" class="form-label">Preferred Country</label>
+          <select class="form-select" id="country" required>
+            <option value="">Select Country</option>
+            <option value="Russia">Russia</option>
+            <option value="Uzbekistan">Uzbekistan</option>
+            <option value="Kazakhstan">Kazakhstan</option>
+          </select>
+        </div>
+        <div class="col-12 text-center">
+          <button type="submit" class="btn btn-light">Submit</button>
+        </div>
+      </form>
+    </div>
+  </section>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  
+  <script>
+    document.getElementById('leadForm').addEventListener('submit', function (e) {
+      e.preventDefault();
+      const name = document.getElementById('name').value;
+      const email = document.getElementById('email').value;
+      const phone = document.getElementById('phone').value;
+      const country = document.getElementById('country').value;
+
+      if (name && email && phone && country) {
+        alert('Form submitted successfully!');
+       
+      } else {
+        alert('Please fill all fields.');
+      }
+    });
+  </script>
+</body>
+</html>
